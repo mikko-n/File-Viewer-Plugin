@@ -59,7 +59,7 @@
     
     // fix resizing issue on orientation change - https://stackoverflow.com/questions/21179364/ios-uiwebview-orientation-issue
     self.webView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-    // fix zooming issue with pdf files - https://stackoverflow.com/questions/7134576/enable-zooming-pinch-on-uiwebview
+    // fix zooming issue - https://stackoverflow.com/questions/7134576/enable-zooming-pinch-on-uiwebview
     self.webView.scalesPageToFit=YES;
     
 }
